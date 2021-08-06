@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(29, 30, 32);
+   background-size: cover;
+   color: rgb(174, 166, 194);
+}
+.form-control{
+    background-color: rosybrown;
+}
+.hero{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.form-box{
+    width: 380px;
+    height: 700px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+.fform-box{
+    width: 380px;
+    height: 380px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+.ffform-box{
+    width: 500px;
+    height: 520px;
+    position: relative;
+    margin: 6% auto;
+    background: rgba(0,0,0,0.3);
+    padding: 10px;
+}
+.hform-box{
+    width: auto;
+    height: auto;
+    position:relative;
+    margin: 6%;
+    
+    background: rgba(14, 12, 19, 0.493);
+    padding: 130px;
+    
+  
+    
+   
+}

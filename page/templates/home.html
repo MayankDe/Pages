@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="col-sm-10 hform-box ">
+    <h3 class="text-white my-5">Home Page</h3>
+
+    <div class="jumbotron jumbotron-fluid ">
+        <div class="container">
+            <h1 class="display-4 font-wieght-bold">This is Mayank</h1>
+            <p class="lead">
+                {% for post in posts %}
+                {{post.Strength}}
+                {{post.Weakness}}
+                {% endfor %}
+            </p>
+        </div>
+    </div>
+
+</div>
+
+{% endblock content %}
